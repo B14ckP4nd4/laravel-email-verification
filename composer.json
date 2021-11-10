@@ -1,0 +1,27 @@
+{
+    "name": "blackpanda/laravel-email-verification",
+    "description": "Verify users email using validation code instead of the URL.",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BlackPanda\\EmailVerification\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "BlackPanda",
+            "email": "46260610+B14ckP4nd4@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "php": "^7.3|^8.0"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BlackPanda\\EmailVerification\\EmailVerificationServiceProvider"
+            ]
+        }
+    }
+}
